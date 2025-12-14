@@ -17,3 +17,6 @@ print(f"Strong brew mix: {strong_brew}")  # Output: Strong brew mix: []
 strong_brew = ["black tea"] * 1 + ["water"] * 2
 print(f"Strong brew mix: {strong_brew}")  # Output: Strong brew mix: ['black tea', 'water', 'water']
 
+raw_spice_data = bytearray(b"CINNAMON")
+raw_spice_data = raw_spice_data.replace( b"CINN", b"CARD")
+print(f"Bytes: {raw_spice_data}")  # Output: Bytes: bytearray(b'CINNAMON')
