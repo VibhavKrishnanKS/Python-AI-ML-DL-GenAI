@@ -13,5 +13,7 @@ print(f"Before swapping Ratio is G:{ginger_ratio}, C:{cardamom_ratio}")  # Outpu
 ginger_ratio, cardamom_ratio = cardamom_ratio, ginger_ratio
 print(f"After swapping Ratio is G:{ginger_ratio}, C:{cardamom_ratio}")  # Output: After swapping Ratio is G:1, C:2
 
+
+# The in operator can be used to check for existence of an element in a tuple - works with Tuples
 print(f"Is ginger in masala spices? {'Ginger' in masala_spices}")  # Output: Is ginger in masala spices? False
 print(f"Is Cinnamon in masala spices? {'Cinnamon' in masala_spices}")  # Output: Is Cinnamon in masala spices? True
