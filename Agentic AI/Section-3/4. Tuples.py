@@ -1,3 +1,4 @@
+# Even Tuples are immutable in Python
 masala_spices = ("Cardamom", "Cloves", "Cinnamon")
 
 (spice1, spice2, spice3) = masala_spices
